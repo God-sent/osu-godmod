@@ -5,7 +5,6 @@ Location - RU
 Репозиторий состоит из библиотек и форков разного рода API, микро-инструкций и списка дел.
 Дневник разработки также здесь.
 
-# 29.06.19 - Старт
 
 Необходимы:
 - nginx
@@ -50,3 +49,8 @@ $ php path/to/ripple/ci-system/migrate.php
 php /path/to/ripple/osu.ppy.sh/cron.php
 ```
 
+Не забываем про конфигурации серверов:
+- osu.ppy.sh - основной сервер
+- a.ppy.sh - сервер с аватарками
+- c.ppy.sh - Bancho
+- c1.ppy.sh - запасной Bancho
