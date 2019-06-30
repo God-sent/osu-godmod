@@ -90,6 +90,32 @@ $ pip install bcrypt
 $ python3 /path/to/ripple/c.ppy.sh/pep.py
 ```
 
+Новый пользователь
+```
+adduser %name%
+usermod -aG sudo %name%
+```
+
+Вкл/Выкл/Рестарт
+```
+sudo systemctl enable vsftpd
+sudo systemctl enable nginx
+sudo systemctl enable php7.0-fpm
+sudo systemctl enable redis-server
+sudo systemctl enable mysql
+sudo systemctl start vsftpd
+sudo systemctl start nginx
+sudo systemctl start php7.0-fpm
+sudo systemctl start redis-server
+sudo systemctl start mysql
+sudo systemctl restart vsftpd
+sudo systemctl restart nginx
+sudo systemctl restart php7.0-fpm
+sudo systemctl restart redis-server
+sudo systemctl restart mysql
+```
+
+
 # 30.06.19
 Запилил сервер на собственном компе. 
 Тестирую фронт-энд сайта, пока к нему невозможно подключится.
