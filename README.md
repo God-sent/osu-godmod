@@ -31,6 +31,7 @@ git clone --recursive https://github.com/osufx/national-gallery
 git clone --recursive https://github.com/osufx/secret
 git clone --recursive https://github.com/osufx/ripple-python-common
 ```
+API спиздить здесь - osu.ppy.sh/p/api
 
 В конфигурации Nginx не забыть сертификаты
 
